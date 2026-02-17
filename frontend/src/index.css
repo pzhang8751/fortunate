@@ -1,1 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-libre: "Libre Baskerville", sans-serif; 
+  --font-figtree: "Figtree", sans-serif;
+}
+
+@layer base {
+    h1 {
+        @apply font-libre
+    }
+    h2 {
+        @apply font-libre
+    }
+    h3 {
+        @apply font-libre
+    }
+    p {
+        @apply font-figtree
+    }
+}
