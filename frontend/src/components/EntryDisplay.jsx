@@ -26,7 +26,7 @@ function Counter({ target, duration = 2000 }) {
 
     return (
         <>
-            <p className="text-center text-lg font-medium"><span className="text-4xl sm:text-5xl  lg:text-6xl font-bold font-libre">{Math.floor(count)}</span> Entries written</p>
+            <p className="text-center text-lg font-medium font-libre"><span className="text-4xl sm:text-5xl  lg:text-6xl font-bold">{Math.floor(count)}</span> Entries written</p>
             <p className="mt-2 text-center text-gray-500">Click on a post to read more about it.</p>
         </>
 
