@@ -7,8 +7,8 @@ function App() {
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-semibold">We, the Fortunate</h1>
         <h2 className="mt-3 text-xl md:text-3xl">Fateful encounters create lifelong changes</h2>
       </section>
-      <section className="mt-2 mb-10 px-5 py-5 text-center flex flex-col place-items-center gap-y-5 [&_p]:w-[80vw] [&_p]:lg:w-[60vw]">
-        <h3 className="text-2xl md:text-4xl mb-2">Inspired by a movie, a trip, and a conversation</h3>
+      <section className="mb-10 px-5 py-5 text-center flex flex-col place-items-center gap-y-5 [&_p]:w-[80vw] [&_p]:lg:w-[60vw]">
+        <h3 className="text-2xl md:text-4xl my-5">Inspired by a movie, a trip, and a conversation</h3>
         <p><span className="italic">Past Lives</span>, by Celine Song, is a film that explores the concept of fate through the lens of a long-lost relationship between two lovers. Nora, a Korean immigrant, and her childhood sweetheart, Hae Sung, have a complicated timeline. Before Nora's family moved from Korea to the United States, the two first met in elementary school as close friends, then reconnecting over Skype as young adults and lovers. However, their relationship would eventually turn sour with conflicts arising from the distance and lack of commitment.</p>
         <p>A decade later, the two reconnect in New York City, but at very different times in their lives. Nora is now married to another man, Arthur, and Hae Sung recently broke up with his girlfriend. </p>
         <p>There comes a scene where Nora, Arthur, and Hae Sung are sitting at a table talking with each other. The conversation and questions between them ask the audience to consider life's what-ifs. What if Nora and Hae Sung's love had worked out earlier? What if Nora had never met Arthur after Hae Sung? These seemingly undestined moments in the grand scheme of life have a profound impact on the paths we take and where we ultimately end up.</p>
@@ -19,7 +19,7 @@ function App() {
         <p className="font-medium">"Meeting my friends in middle school."</p>
         <p>That was his response, and for good reason. His friends had been with him ever since&mdash;watched him grow up, lived every important memory with him. It's rather fascinating to realize how much the people around us can affect us longterm. What made this moment even more profoundly fateful was that if I had never made this friend, I would have never met the friend that convinced me to travel to California. My world was so incredibly, deeply connected beyond what I could imagine. Maybe it was 인연 leading me to every encounter, leading me to those memories I'll cherish forever. From these three experiences, I was inspired to start this project,</p>
         <p className="font-semibold font-libre text-lg">We, the Fortunate</p>
-        <p>For those who are looking for a conversation to inspire them, or looking to share their own pivotal story, this place seeks to provide those opportunities.</p>
+        <p>For those who are looking for a conversation to inspire them, or looking to share their own pivotal story, this space seeks to provide those opportunities.</p>
         <div className="mt-7 flex flex-row gap-[20vw] *:px-4 *:py-2 *:bg-amber-600 *:hover:cursor-pointer *:hover:scale-90 *:duration-200 *:ease-in-out font-libre *:transition-all *:hover:bg-amber-700">
           <Link to="/read">Start Reading</Link>
           <Link to="/write">Start Writing</Link>
