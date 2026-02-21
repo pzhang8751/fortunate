@@ -7,7 +7,7 @@ export default function WritePage() {
                 <h1 className="font-semibold text-2xl lg:text-5xl">Leave an Entry</h1>
             </section>
             <section className="px-5 py-5 flex flex-col place-items-center">
-                <p className="text-lg font-libre mb-3 font-medium">
+                <p className="text-center text-lg font-libre mb-3 font-medium">
                     Some questions to consider before responding,  
                 </p>
                 <p className="text-center font-libre mb-3 leading-7 text-gray-600">
