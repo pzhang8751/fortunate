@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import WritePage from './pages/WritePage.jsx'
 import ReadPage from './pages/ReadPage.jsx'
+import { Analytics } from '@vercel/analytics/react'
 
 function Layout() {
   return (
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="about" element={<App />}></Route>
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   </StrictMode>,
 )
