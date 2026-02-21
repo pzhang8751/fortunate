@@ -44,8 +44,8 @@ export default function EntryForm() {
     return (
         // need to adjust w-[vw] for different screen size
         <>
-            <form onSubmit={submitEntry} id="entryForm" className="w-[80vw] lg:w-[50vw] px-3 py-5 outline-1 *:outline-none flex flex-col gap-y-2">
-                <p className="font-libre text-sm text-gray-400">{new Date().toDateString().substring(3)}</p>
+            <form onSubmit={submitEntry} id="entryForm" className="w-[80vw] lg:w-[50vw] px-3 py-5 outline-1 *:outline-none flex flex-col gap-y-2 bg-beige">
+                <p className="font-libre text-sm text-gray-500">{new Date().toDateString().substring(3)}</p>
                 <textarea placeholder="*Title" value={title} onChange={(e) => {
                     setTitle(e.currentTarget.value);
                 }} maxLength={40} className="resize-none h-20 text-lg font-libre font-semibold border-b"></textarea>
@@ -57,13 +57,13 @@ export default function EntryForm() {
                     }}
                     className="mt-2 resize-none h-[50vh] lg:h-[65vh] font-figtree"
                 ></textarea>
-                <p className="text-gray-400">{entry.length}/1500</p>
+                <p className="text-gray-500">{entry.length}/1500</p>
                 <input placeholder="Anonymous" value={name} onChange={(e) => {
                     setName(e.currentTarget.value);
                 }} maxLength={15} className="px-2 w-min border-b text-center self-end font-libre"></input>
                 
             </form>
-            <button type="submit" form="entryForm" disabled={isPending} className="w-min px-4 py-2 mt-5 bg-amber-500 hover:cursor-pointer hover:scale-90 duration-200 ease-in-out font-libre transition-all hover:bg-amber-600">
+            <button type="submit" form="entryForm" disabled={isPending} className="w-min px-4 py-2 mt-5 bg-amber-600 hover:cursor-pointer hover:scale-90 duration-200 ease-in-out font-libre transition-all hover:bg-amber-700">
                 Publish
             </button>
         </>

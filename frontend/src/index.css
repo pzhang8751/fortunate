@@ -4,6 +4,7 @@
 @theme {
   --font-libre: "Libre Baskerville", sans-serif; 
   --font-figtree: "Figtree", sans-serif;
+  --color-beige: #faf3e1;
 }
 
 @layer base {
